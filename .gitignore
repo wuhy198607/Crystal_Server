@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+
+# Don't ignore Configs directory
+!Configs/
+!Configs/**
+
+# Don't ignore Envir directory
+!Envir/
+!Envir/** 
