@@ -1,4 +1,4 @@
 [@main]
-Ugh... I have pain in my legs..
-Where can I take a rest?
-<Close/@exit>
+呃...我的腿好痛..
+我在哪里可以休息一下？
+<关闭/@exit>

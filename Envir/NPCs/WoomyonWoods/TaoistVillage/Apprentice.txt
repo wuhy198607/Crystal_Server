@@ -1,10 +1,10 @@
 [@main]
-A long time ago, a certain villian stole our {HolySword/LightSteelBlue},
-the best sword of our school,
-This sword was so holy that there is a legend,
-that when it smashes once storm blows and dragons appear
-well...who knows it is true or not? But if the sword exists
-it's power will is so big we cant even imagine its range.
-<Thanks/@exit>
+很久以前，一个恶人偷走了我们的 {HolySword/LightSteelBlue}，
+这是我们学校最好的剑，
+这把剑如此神圣，以至于有一个传说，
+当它一挥动时，暴风就会吹起，龙也会出现，
+嗯...谁知道这是真是假？但如果这把剑存在，
+它的力量之大，我们甚至无法想象它的范围。
+<谢谢/@exit>
 
 [Quests]

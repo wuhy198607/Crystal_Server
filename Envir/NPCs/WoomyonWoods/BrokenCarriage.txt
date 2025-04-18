@@ -1,6 +1,6 @@
 [@Main]
 #SAY
-A missing Carriage. Content's seems to be missing.
+一辆失踪的马车。里面的东西似乎不见了。
 <Close/@exit>
 
 [Quests]

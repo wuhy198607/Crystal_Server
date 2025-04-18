@@ -2,7 +2,7 @@
 #IF
 CHECKPKPOINT > 199
 #SAY
-I will not help an evil person like you...
+我不会帮助像你这样的恶人...
  
  
 <Close/@exit>
@@ -11,8 +11,7 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello Mirian, We need to improve on how we teach our 
-Taoists.
+你好米莉安，我们需要改进我们教导道士的方式。
 
 <Close/@exit>
 

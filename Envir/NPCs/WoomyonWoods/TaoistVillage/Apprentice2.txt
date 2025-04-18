@@ -1,8 +1,7 @@
 [@main]
-Some woods called the Tree Path are located in the area to the
-north of this Taoist School
-A lot of trees are gathered thickly there and
-it is dark there even during the day.
-Even the local natives often lose their way
-When you go there, take great care!
-<Ok/@exit>
+在道士学校北边的区域有一片被称为树林小径的树林，
+那里树木茂密，
+即使在白天也很黑暗。
+就连当地人也经常在那里迷路，
+当你去那里时，一定要小心！
+<好的/@exit>

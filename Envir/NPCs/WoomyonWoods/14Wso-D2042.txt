@@ -1,6 +1,6 @@
 [@main]
 #SAY
-He seems to be pisoned, He has cold sweat on his face.
+他看起来被囚禁了，脸上冒着冷汗。
 
 <Close/@exit>
 
