@@ -1,6 +1,6 @@
 [@main]
 #SAY
-Hello {<$USERNAME>/KHAKI}, Want a boost?
+你好 {<$USERNAME>/KHAKI}，需要提升一下吗？
 
 <Yes/@Yes> <No/@Exit>
 

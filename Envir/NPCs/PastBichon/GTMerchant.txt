@@ -1,65 +1,63 @@
 [@Main]
 #SAY
-How are you? Mirian <$USERNAME>!
-I am the Guild Territory Merchant and
-I'm in charge of guild territory rent and sales.
+你好吗，米里安 <$USERNAME>！
+我是公会领地商人，
+负责公会领地的租赁和销售。
  
-<What is/@info> a guild territory?
-I want to <rent/@rent> a guild territory.
-I want to <go/@move> to my guild territory.
-I want to check the <list/@agitbuy> of guild territories.
-I want to <trade/@trade> my guild territory.
+<什么是/@info> 公会领地？
+我想<租用/@rent> 一个公会领地。
+我想<前往/@move> 我的公会领地。
+我想查看公会领地的<列表/@agitbuy>。
+我想<交易/@trade> 我的公会领地。
 
 [@info]
 #SAY
-Guild territory is an exclusive space for a guild,
-where the members stay for privacy. Members of the
-guild that has its own territory do not have
-to have secret meeting at the hidden corners of villages,
-where privacy is still not guaranteed. Guild members may
-have private conversations and socialize with other members.
-In short, it is a residence for clans.
+公会领地是公会的专属空间，
+成员可以在这里保持隐私。拥有自己领地的
+公会成员不必在村庄的隐蔽角落
+进行秘密会议，那里的隐私仍然无法保证。
+公会成员可以私下交谈并与其他成员社交。
+简而言之，这是公会的住所。
  
 <Back/@main>
 
 [@rent]
 #SAY
-You need 10,000,000 {Gold/Gold} to rent a guild territory and the initial
-period for rent is 7 days.
-If you want to extend, talk to the 'GT Steward' in the territory.
-After paying the fee of 1,000,000 {Gold/Gold},
-the rent will be extended for an additional 7 days.
+租用公会领地需要10,000,000 {Gold/Gold}，初始
+租期为7天。
+如果你想延长租期，请与领地内的'领地管理员'交谈。
+支付1,000,000 {Gold/Gold}的费用后，
+租期将延长7天。
  
-Do you still want to rent a territory? <Rent/@agitreg> <Cancel/@exit>
+你还想租用领地吗？<Rent/@agitreg> <Cancel/@exit>
 
 [@move]
 #SAY
-Then I will teleport you to the territory of you guild.
-However, only the guild masters or the members who
-have their own territories can be transported.
-If you wish to return to castles or villages, look
-for the Armed Transporter at the entrance of the
-guild territory.
+那么我将把你传送到你公会的领地。
+但是，只有公会会长或拥有自己领地的
+成员才能被传送。
+如果你想返回城堡或村庄，请在
+公会领地入口处寻找武装传送师。
  
-Do you want to move to the guild territory? <Move/@agitmove> <Cancel/@exit>
+你想前往公会领地吗？<Move/@agitmove> <Cancel/@exit>
 
 [@agitbuy]
 #SAY
-Here, you can see all the information about ownership, trades,
-and sales of guild territories at once. If you intend to
-purchase a guild territory from the list, send a 'note'
-to the guild master who owns the territory. And if you wish to
-purchase the guild territory after reaching agreement,
-use the 'trade' menu of the main screen.
+在这里，你可以一次性查看所有关于所有权、交易
+和公会领地销售的信息。如果你打算
+从列表中购买公会领地，请给拥有该领地的
+公会会长发送一个'便条'。如果你希望
+在达成协议后购买公会领地，
+请使用主界面的'交易'菜单。
  
 <Back/@main>
 
 [@trade]
 #SAY
-By facing the guild master and selecting 'trade',
-the transaction is complete. After a successful transaction,
-the ownership is transferred in 24 hours and the previous owners
-are automatically 'kicked out' from the territory.
-So, please think carefully berfore trading the guild territory.
+面对公会会长并选择'trade'，
+交易就完成了。交易成功后，
+所有权将在24小时内转移，前所有者
+将自动被'踢出'领地。
+所以，请在交易公会领地之前仔细考虑。
  
-Will you trade? <Trade/@agittrade> <Cancel/@exit>
+你要交易吗？<Trade/@agittrade> <Cancel/@exit>

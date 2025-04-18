@@ -2,7 +2,7 @@
 #IF
 CHECKPKPOINT > 199
 #SAY
-I will not help an evil person like you...
+我不会帮助像你这样的恶人...
  
  
 <Close/@exit>
@@ -11,43 +11,43 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello Traveller. What can I do for you? 
+你好，旅行者。我能为你做些什么？
 
-I see you're wearing: {<$ARMOUR>/CORAL}
-I see you're wearing: {<$HELMET>/CORAL}
-I see you're wearing: {<$BELT>/CORAL}
-I see you're wearing: {<$BOOTS>/CORAL}
+我看到你装备着: {<$ARMOUR>/CORAL}
+我看到你装备着: {<$HELMET>/CORAL}
+我看到你装备着: {<$BELT>/CORAL}
+我看到你装备着: {<$BOOTS>/CORAL}
 
-<View/@BuySell> Store.
-<Repair/@Repair> Drapery pieces.
-<Special/@SRepair> Special Repair Drapery pieces.
+<View/@BuySell> 商店。
+<Repair/@Repair> 修理防具。
+<Special/@SRepair> 特殊修理防具。
  
 <Close/@exit>
 
 [@BuySell]
 #SAY
-Which item would you like to Buy or Sell?
+你想买或卖什么物品？
 <Buy Back/@BuyBack>
  
 <Back/@main>
 
 [@BuyBack]
 #SAY
-These are the items still available to purchase back.
+这些是可以回购的物品。
  
 <Back/@main>
 
 [@Repair]
 #SAY
-Would you like to repair a drapery piece?
-Show me the armour that needs repair.
+你想要修理防具吗？
+把需要修理的防具给我看看。
  
 <Back/@main>
 
 [@SRepair]
 #SAY
-Traveller, You are lucky... We have the materials to do Special repairs.
-Show me the armour that needs special repair.
+旅行者，你很幸运...我们有材料可以进行特殊修理。
+把需要特殊修理的防具给我看看。
  
 <Back/@main>
 
