@@ -18,6 +18,7 @@ I see you're wearing: {<$WEAPON>/CORAL}
 
 <View/@BuySell> Store.
 <Repair/@Repair> Weapon.
+<Special/@SRepair> Special Repair Weapon.
  
 <Close/@exit>
 
@@ -41,6 +42,12 @@ Show me the weapon that needs it.
  
 <Back/@main>
 
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the weapon that needs special repair.
+ 
+<Back/@main>
 
 [Types]
 1

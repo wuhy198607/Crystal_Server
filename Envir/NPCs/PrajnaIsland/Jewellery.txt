@@ -20,6 +20,7 @@ I see you're wearing:
 
 <View/@BuySell> Store.
 <Repair/@Repair> Jewellery.
+<Special/@SRepair> Special Repair Jewellery.
  
 <Close/@exit>
 
@@ -40,6 +41,13 @@ These are the items still available to purchase back.
 #SAY
 You can repair various kinds of Jewellery.
   
+<Back/@main>
+
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the jewellery that needs special repair.
+ 
 <Back/@main>
 
 [Types]

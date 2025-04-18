@@ -20,6 +20,7 @@ I see you're wearing: {<$BOOTS>/CORAL}
 
 <View/@BuySell> Store.
 <Repair/@Repair> Drapery pieces.
+<Special/@SRepair> Special Repair Drapery pieces.
  
 <Close/@exit>
 
@@ -39,9 +40,16 @@ These are the items still available to purchase back.
 [@Repair]
 #SAY
 Would you like to repair a drapery piece?
+Show me the armour that needs repair.
  
 <Back/@main>
 
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the armour that needs special repair.
+ 
+<Back/@main>
 
 [Types]
 2

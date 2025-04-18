@@ -20,6 +20,7 @@ I see you're wearing: {<$BOOTS>/CORAL}
 
 <View/@BuySell> Store.
 <Repair/@Repair> Drapery pieces.
+<Special/@SRepair> Special Repair Drapery.
  
 <Close/@exit>
 
@@ -42,6 +43,12 @@ Would you like to repair a drapery piece?
  
 <Back/@main>
 
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the drapery piece that needs special repair.
+ 
+<Back/@main>
 
 [Types]
 2
