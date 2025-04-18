@@ -4,9 +4,9 @@ CHECKITEM DragonScale 1
 #ACT
 TAKEITEM DragonScale 1
 #SAY
-<Enter the Dragons Lair./@tele>
+<进入龙穴/@tele>
 #ELSESAY
-You do not have the {DragonScale/LightSteelBlue}!
+你没有 {DragonScale/LightSteelBlue}！
 <Close/@exit>
 
 [@tele]
