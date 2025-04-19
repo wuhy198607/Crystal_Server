@@ -1,16 +1,16 @@
 [@Main]
 #SAY
-Welcome, how may I help you?
+欢迎，我能为您做些什么？
  
-<Repair/@Repair> Clothes
+<修理/@Repair> 服装
  
-<Close/@Exit>
+<关闭/@Exit>
 
 
 [@Repair]
-You can repair Clothes here.
+你可以在这里修理服装。
 
-<Back/@Main>
+<返回/@Main>
 
 [Types]
 2

@@ -5,8 +5,8 @@ GROUPLEADER
 GROUPGOTO @grouphere
 break
 #ELSESAY
-(*You hear a slight whisper in the wind:*)
-"Only party leaders with their parties may pass here."
+（*你听到风中传来轻微的耳语：*）
+"只有队长带领的队伍才能通过这里。"
 
 [@grouphere]
 #IF
@@ -17,22 +17,22 @@ CHECKRANGE 223 304 5
 goto @checkorb
 break
 #ELSESAY
-(*You hear a slight whisper in the wind:*)
-"You are a party leader but your party is not present.
-You may not pass.All Must be within 5 spots of npc."
+（*你听到风中传来轻微的耳语：*）
+"你是队长，但你的队伍不在身边。
+你不能通过。所有人都必须在NPC 5格范围内。"
 
 [@checkorb]
 #IF
 CHECKITEM AdmissionOrb 1
 #SAY
-(*You hear a slight whisper in the wind:*)
-"You are a party leader, Youre party is present,
-You have the forbidden Orb..."
-You may pass hunter!
-<Pass/@pass>                          <Do not pass/@exit>
+（*你听到风中传来轻微的耳语：*）
+"你是队长，你的队伍都在，
+你拥有禁忌之球..."
+你可以通过了，猎人！
+<通过/@pass>                          <不通过/@exit>
 #ELSESAY
-(*You hear a slight whisper in the wind:*)
-"Only parties weilding the forbidden Orb may pass here."
+（*你听到风中传来轻微的耳语：*）
+"只有拥有禁忌之球的队伍才能通过这里。"
 
 [@pass]
 #IF
@@ -42,5 +42,5 @@ TAKEITEM AdmissionOrb 1
 GROUPTELEPORT FOX03 47 21
 break
 #ELSESAY
-(*You hear a slight whisper in the wind:*)
-"Only parties weilding the forbidden Orb may pass here."
+（*你听到风中传来轻微的耳语：*）
+"只有拥有禁忌之球的队伍才能通过这里。"
