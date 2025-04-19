@@ -1,30 +1,31 @@
 [@Main]
 #SAY
-<Use./@main-1> teleport to the village stores
-<News/@ask> of the village
+<使用传送/@main-1> 前往村庄商店
+<村庄新闻/@ask>
 
-Learn about <Rebirth/@RebirthMain>
+了解<转生/@RebirthMain>系统
 
-<<Create Hero/@CreateHero/Green>>
-<<ReviveHero/@ReviveHero/Red>>
-<<SealHero/@SealHero/Yellow>>
+<<创建英雄/@CreateHero/Green>>
+<<复活英雄/@ReviveHero/Red>>
+<<封印英雄/@SealHero/Yellow>>
+<<删除英雄/@DeleteHero/Blue>>
 
 [@main-1]
 #SAY
-<Weapon shop/@go-weap>   <Armour shop/@go-cloth>   <Inn/@go-inn>
-<Accessory shop/@go-access>   <Reagent Store/@go-pot>   <Bichon Inner Wall/@go-palace>
-<Book store/@go-book>  <Butcher's shop/@go-meat>   <Hairdresser/@go-hairdresser>
+<武器店/@go-weap>   <防具店/@go-cloth>   <旅馆/@go-inn>
+<饰品店/@go-access>   <药剂店/@go-pot>   <比奇内城/@go-palace>
+<书店/@go-book>  <肉铺/@go-meat>   <理发店/@go-hairdresser>
 
-<Close/@Exit>
+<关闭/@Exit>
 
 [@ask]
 #SAY
-News: 
-Travelling Merchant Damian visists everyday between 9:30 to 10:30
-You can sell all your loot to him.
-He always hangs out near the book store.
+新闻: 
+旅行商人达米安每天9:30到10:30来访
+你可以向他出售所有战利品
+他总是在书店附近活动
 
-<Back/@Main>
+<返回/@Main>
 
 [@go-weap]
 #ACT
@@ -77,29 +78,44 @@ MOVE 0107
 [@ReviveHero]
 #ACT
 ReviveHero
+#SAY
+你的英雄已复活
+
+<返回/@Main>     <退出/@EXIT>
 
 [@SealHero]
 #ACT
 SealHero
+#SAY
+你的英雄已被封印
+
+<返回/@Main>     <退出/@EXIT>
+
+[@DeleteHero]
+#ACT
+DELETEHERO
+#SAY
+你的英雄已被删除
+
+<返回/@Main>     <退出/@EXIT>
 
 [@RebirthMain]
 #SAY
-Rebirth starts at Level 60 and grants you a Rebirth Effect
-depending on your level after rebirth.
+转生系统从60级开始，根据转生后的等级获得不同的转生效果
 
-Rebirth 1 - <Level 60-69/@RB1>
-Rebirth 2 - <Level 70-79/@RB2>
-Rebirth 3 - <Level 80+/@RB3>
+转生1 - <60-69级/@RB1>
+转生2 - <70-79级/@RB2>
+转生3 - <80级以上/@RB3>
 
-Check your rebirth eligibility above.
+检查你的转生资格
 
 [@RB1]
 #IF
 LEVEL < 60
 #SAY
-You need to be above Level 60 to rebirth.
+你需要达到60级才能转生
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 #ELSEACT
 GOTO @RB1CHECK
 
@@ -107,13 +123,13 @@ GOTO @RB1CHECK
 #IF
 CHECK [993] 0
 #SAY
-Would you like to rebirth?
+你想要转生吗？
 
-<Yes/@RB1APPLY>       <No/@RebirthMain>
+<是/@RB1APPLY>       <否/@RebirthMain>
 #ELSESAY
-You are already Rebirth 1.
+你已经完成了转生1
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 
 [@RB1APPLY]
 #ACT
@@ -121,17 +137,17 @@ SET [993] 1
 SET [1000] 1
 ADDNAMELIST ../NameLists/Rebirth1.txt
 #SAY
-You are now Reborn.
+你现在已经转生
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 
 [@RB2]
 #IF
 LEVEL < 70
 #SAY
-You need to be above Level 70 to rebirth.
+你需要达到70级才能转生
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 #ELSEACT
 GOTO @RB2CHECK
 
@@ -139,13 +155,13 @@ GOTO @RB2CHECK
 #IF
 CHECK [994] 0
 #SAY
-Would you like to rebirth?
+你想要转生吗？
 
-<Yes/@RB2APPLY>       <No/@RebirthMain>
+<是/@RB2APPLY>       <否/@RebirthMain>
 #ELSESAY
-You are already Rebirth 2.
+你已经完成了转生2
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 
 [@RB2APPLY]
 #ACT
@@ -154,17 +170,17 @@ SET [994] 1
 DELNAMELIST ../NameLists/Rebirth1.txt
 ADDNAMELIST ../NameLists/Rebirth2.txt
 #SAY
-You are now Reborn.
+你现在已经转生
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 
 [@RB3]
 #IF
 LEVEL < 80
 #SAY
-You need to be above Level 80 to rebirth.
+你需要达到80级才能转生
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 #ELSEACT
 GOTO @RB3CHECK
 
@@ -172,13 +188,13 @@ GOTO @RB3CHECK
 #IF
 CHECK [995] 0
 #SAY
-Would you like to rebirth?
+你想要转生吗？
 
-<Yes/@RB3APPLY>       <No/@RebirthMain>
+<是/@RB3APPLY>       <否/@RebirthMain>
 #ELSESAY
-You are already Rebirth 3.
+你已经完成了转生3
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 
 [@RB3APPLY]
 #ACT
@@ -187,9 +203,9 @@ SET [995] 1
 DELNAMELIST ../NameLists/Rebirth2.txt
 ADDNAMELIST ../NameLists/Rebirth3.txt
 #SAY
-You are now Reborn.
+你现在已经转生
 
-<Back/@RebirthMain>     <Exit/@EXIT>
+<返回/@RebirthMain>     <退出/@EXIT>
 
 [Quests]
 140
