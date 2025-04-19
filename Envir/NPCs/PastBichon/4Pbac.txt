@@ -11,11 +11,10 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello, Are you looking for something particular? 
-How can I be of assistance.
+Welcome, What can I do for you?
  
 <View/@BuySell> Store.
-<Repair/@Repair> Weapon.
+<Repair/@Repair> Accessories.
  
 <Close/@exit>
 
@@ -34,7 +33,7 @@ These are the items still available to purchase back.
 
 [@Repair]
 #SAY
-Would you like to repair a weapon?
+Would you like to repair an accessory?
 <Special Repair/@SRepair>
 <Normal Repair/@NormalRepair>
  
@@ -43,13 +42,13 @@ Would you like to repair a weapon?
 [@SRepair]
 #SAY
 Traveller, You are lucky... We have the materials to do Special repairs.
-Show me the weapon that needs special repair.
+Show me the accessory that needs special repair.
  
 <Back/@Repair>
 
 [@NormalRepair]
 #SAY
-Show me the weapon that needs normal repair.
+Show me the accessory that needs normal repair.
  
 <Back/@Repair>
 
@@ -59,22 +58,6 @@ Show me the weapon that needs normal repair.
 14
 
 [Trade]
-WoodenSword
-WoodenBow
-HoaSword
-Dagger
 EbonySword
 EbonyBow
-BronzeSword
-SharpHoaSword
-ShortSword
-ShortBow
-IronSword
-BoneBow
-BronzeAxe
-HookedSword
-Trident
-Scimitar
-BladesofVelocity
-CompoundBow
-PickAxe
+BronzeSword 

@@ -11,10 +11,11 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello Traveller. What can I do for you? 
+Hello, Are you looking for something particular? 
+How can I be of assistance.
  
 <View/@BuySell> Store.
-<Repair/@Repair> Drapery pieces.
+<Repair/@Repair> Drapery.
  
 <Close/@exit>
 
@@ -34,45 +35,30 @@ These are the items still available to purchase back.
 [@Repair]
 #SAY
 Would you like to repair a drapery piece?
+<Special Repair/@SRepair>
+<Normal Repair/@NormalRepair>
  
 <Back/@main>
 
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the drapery piece that needs special repair.
+ 
+<Back/@Repair>
+
+[@NormalRepair]
+#SAY
+Show me the drapery piece that needs normal repair.
+ 
+<Back/@Repair>
+
 
 [Types]
-2
-4
-9
-10
+1
+14
 
 [Trade]
-HeavyArmour(M)
-HeavyArmour(F)
-SoulArmour(M)
-SoulArmour(F)
-MagicRobe(M)
-MagicRobe(F)
-RelicArmour(M)
-RelicArmour(F)
-LightLeatherArmour(M)
-LightLeatherArmour(F)
-IronArmour(M)
-IronArmour(F)
-WizardRobe(M)
-WitchRobe(F)
-PearlArmour(M)
-PearlArmour(F)
-AncientArmour(M)
-AncientArmour(F)
-TemperedArmour(M)
-TemperedArmour(F)
-BronzeHelmet
-MagicHelmet
-BrassHelmet
-SkeletonHelmet
-ShamanHelmet
-LeatherBelt
-ChainBelt
-BronzeBelt
-LowShoes
-LeatherBoots
-SilkBoots
+EbonySword
+EbonyBow
+BronzeSword

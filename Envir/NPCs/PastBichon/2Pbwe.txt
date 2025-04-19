@@ -35,9 +35,23 @@ These are the items still available to purchase back.
 [@Repair]
 #SAY
 Would you like to repair a weapon?
-Show me the weapon that needs it.
+<Special Repair/@SRepair>
+<Normal Repair/@NormalRepair>
  
 <Back/@main>
+
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the weapon that needs special repair.
+ 
+<Back/@Repair>
+
+[@NormalRepair]
+#SAY
+Show me the weapon that needs normal repair.
+ 
+<Back/@Repair>
 
 
 [Types]

@@ -11,11 +11,10 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Hello, Are you looking for something particular? 
-How can I be of assistance.
+Welcome, What can I do for you?
  
 <View/@BuySell> Store.
-<Repair/@Repair> Weapon.
+<Repair/@Repair> Weapons.
  
 <Close/@exit>
 
@@ -59,22 +58,6 @@ Show me the weapon that needs normal repair.
 14
 
 [Trade]
-WoodenSword
-WoodenBow
-HoaSword
-Dagger
 EbonySword
 EbonyBow
-BronzeSword
-SharpHoaSword
-ShortSword
-ShortBow
-IronSword
-BoneBow
-BronzeAxe
-HookedSword
-Trident
-Scimitar
-BladesofVelocity
-CompoundBow
-PickAxe
+BronzeSword 

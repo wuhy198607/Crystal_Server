@@ -2,7 +2,7 @@
 #IF
 CHECKPKPOINT > 199
 #SAY
-我不会帮助像你这样的恶人...
+I will not help an evil person like you...
  
  
 <Close/@exit>
@@ -11,91 +11,53 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-你好，旅行者，我能为你做些什么？
+Welcome, What can I do for you?
  
-<View/@BuySell> 商店。
-<Ask/@Ask> 询问物品
+<View/@BuySell> Store.
+<Repair/@Repair> Weapons.
  
 <Close/@exit>
 
 [@BuySell]
 #SAY
-你想买或卖什么物品？
-<BuyBack/@BuyBack>
+Which item would you like to Buy or Sell?
+<Buy Back/@BuyBack>
  
-<Back/@Main>
+<Back/@main>
 
 [@BuyBack]
 #SAY
-这些是可以回购的物品。
+These are the items still available to purchase back.
  
-<Back/@Main>
+<Back/@main>
 
-[@Ask]
+[@Repair]
 #SAY
-我经营<Candle/candle>蜡烛、<Dungeonescape/dungeonescape>地牢逃脱卷轴、
-<RandomTeleport/randomteleport>随机传送卷轴、<RepairOil/repairoil>修理油等物品。
-我听说<Townteleport/townteleport>城镇传送卷轴只能从怪物身上获得。
+Would you like to repair a weapon?
+<Special Repair/@SRepair>
+<Normal Repair/@NormalRepair>
  
-<Back/@Main>
+<Back/@main>
 
-[@candle]
+[@SRepair]
 #SAY
-蜡烛在黑暗中是必需的。没有蜡烛
-你将什么都看不见，甚至连自己的脚都看不见。
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the weapon that needs special repair.
  
-<Back/@Ask>
+<Back/@Repair>
 
-[@dungeonescape]
+[@NormalRepair]
 #SAY
-地牢逃脱卷轴是一种魔法卷轴，可以让你迅速
-传送到你最后访问的村庄附近的特定区域。
-地牢逃脱卷轴的力量比城镇传送卷轴弱，
-但它仍然可以救你一命。
+Show me the weapon that needs normal repair.
  
-<Back/@Ask>
+<Back/@Repair>
 
-[@randomteleport]
-#SAY
-随机传送卷轴是一种魔法卷轴，可以
-让你在同一地图中随机传送到另一个位置。
-例如，如果你在地牢第一层，使用随机传送卷轴
-会让你移动到该层的另一个位置。
-如果情况危险但你还有药水，使用这个
-可以帮助你摆脱困境。
- 
-<Back/@Ask>
-
-[@repairoil]
-#SAY
-修理油可以提高你手中武器的耐久度，
-但这种油不能特殊修理你的武器，所以
-要记住武器的最大耐久度会随时间降低。
-如果你手中的武器不是很贵重，
-在狩猎时可以用这种油修理。
-这样可以延长狩猎时间。
- 
-<Back/@Ask>
-
-[@townteleport]
-#SAY
-城镇传送卷轴现在无法制作，因为古老的
-技艺已经失传....但是....
-我听说它可能从怪物身上随机获得，
-使用它可以迅速返回村庄....
- 
-<Back/@Ask>
 
 [Types]
-8
-12
+1
+14
 
 [Trade]
-Candle
-Torch
-RandomTeleport
-DungeonEscape
-Amulet
-RepairOil
-GreenPoison
-RedPoison
+EbonySword
+EbonyBow
+BronzeSword

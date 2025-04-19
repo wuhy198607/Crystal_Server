@@ -2,7 +2,7 @@
 #IF
 CHECKPKPOINT > 199
 #SAY
-我不会帮助像你这样的恶人...
+I will not help an evil person like you...
  
  
 <Close/@exit>
@@ -11,20 +11,54 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-你好，旅行者。我能为你做些什么？
+Hello traveller. How can I help you?
  
-<Access/@Storage> 仓库
-你有 <$PARCELAMOUNT> 个包裹等待领取。
-<Send/@SendParcel> 发送包裹
-<Collect/@CollectParcel> 领取包裹
+<View/@BuySell> Store.
+<Repair/@Repair> Weapons.
  
 <Close/@exit>
 
-
-
-[@Storage]
+[@BuySell]
 #SAY
-你想存储或取出什么物品？
+Which item would you like to Buy or Sell?
+<Buy Back/@BuyBack>
  
-<Back/@Main> - <Close/@exit>
+<Back/@main>
+
+[@BuyBack]
+#SAY
+These are the items still available to purchase back.
+ 
+<Back/@main>
+
+[@Repair]
+#SAY
+Would you like to repair a weapon?
+<Special Repair/@SRepair>
+<Normal Repair/@NormalRepair>
+ 
+<Back/@main>
+
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+Show me the weapon that needs special repair.
+ 
+<Back/@Repair>
+
+[@NormalRepair]
+#SAY
+Show me the weapon that needs normal repair.
+ 
+<Back/@Repair>
+
+
+[Types]
+1
+14
+
+[Trade]
+EbonySword
+EbonyBow
+BronzeSword
 

@@ -9,8 +9,20 @@
 
 [@Repair]
 你可以在这里修理服装。
+<特殊修理/@SpecialRepair>
+<普通修理/@NormalRepair>
 
 <返回/@Main>
+
+[@SpecialRepair]
+请让我看看您想特殊修理的服装。
+
+<返回/@Repair>
+
+[@NormalRepair]
+请让我看看您想普通修理的服装。
+
+<返回/@Repair>
 
 [Types]
 2
