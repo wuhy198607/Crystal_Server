@@ -1,9 +1,9 @@
 [@Main]
 #SAY
-My beloved house..
-It was burned to the ground thanks to this war!
-I'm still waiting to hear back from the castle..
-<Close/@exit>
+我心爱的房子...
+因为这场战争被烧成了灰烬！
+我仍在等待城堡的回音...
+<关闭/@exit>
 
 [Quests]
 -7

@@ -2,39 +2,39 @@
 #IF
 ISADMIN
 #SAY
-Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
-I see you're wearing: {<$WEAPON>/CORAL} and have {<$PKPOINT>/ORANGE} PK Points.
-<Buy/@Buy> Weapon
-<Sell/@Sell> Weapon
-<Repair/@Repair> Weapon
-<Special Repair/@SRepair> Weapon
+你好 {<$USERNAME>/KHAKI}，我是 {<$NPCNAME>/KHAKI}。
+我看到你装备着：{<$WEAPON>/CORAL} 并且有 {<$PKPOINT>/ORANGE} 点PK值。
+<购买/@Buy> 武器
+<出售/@Sell> 武器
+<修理/@Repair> 武器
+<特修/@SRepair> 武器
 
 #ELSEACT
 MOVE 0 300 300
  
 [@Repair]
 #SAY
-Repair.
+修理。
  
-<Back/@Main>
+<返回/@Main>
 
 [@SRepair]
 #SAY
-Special repair.
+特修。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Sell]
 #SAY
-Sell.
+出售。
  
-<Back/@Main>
+<返回/@Main>
 
 [@Buy]
 #SAY
-Buy.
+购买。
  
-<Back/@Main>
+<返回/@Main>
 
 
 [Types]

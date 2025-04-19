@@ -2,7 +2,7 @@
 #SAY
 你好 {<$USERNAME>/KHAKI}，需要提升一下吗？
 
-<Yes/@Yes> <No/@Exit>
+<是/@Yes> <否/@Exit>
 
 [@YES]
 #IF
@@ -38,7 +38,7 @@ GIVEITEM BeltOfDarkness	1
 GIVEITEM BootsOfDarkness 1
 GIVEITEM HolyDCStone 1
 #SAY
-<Spells/@SpellsWarrior>
+<技能/@SpellsWarrior>
 
 [@SpellsWarrior]
 #ACT
@@ -60,7 +60,7 @@ GIVESKILL Fury 3
 GIVESKILL SlashingBurst 3
 GIVESKILL ImmortalSkin 3
 #SAY
-<Level/@Level>
+<等级/@Level>
 
 [@Wizard]
 #ACT
@@ -75,7 +75,7 @@ GIVEITEM BootsOfDarkness 1
 GIVEITEM HolyMCStone 1
 GIVEITEM StaffOfLotus 1
 #SAY
-<Spells/@SpellsWizard>
+<技能/@SpellsWizard>
 
 [@SpellsWizard]
 #ACT
@@ -104,7 +104,7 @@ GIVESKILL Cataclysm 3
 GIVESKILL IceThrust 3
 GIVESKILL FireBounce 3
 #SAY
-<Level/@Level>
+<等级/@Level>
 
 [@Taoist]
 #ACT
@@ -118,7 +118,7 @@ GIVEITEM BeltOfDarkness	1
 GIVEITEM BootsOfDarkness 1 
 GIVEITEM HolySCStone 1
 #SAY
-<Spells/@SpellsTaoist>
+<技能/@SpellsTaoist>
 
 [@SpellsTaoist]
 #ACT
@@ -148,7 +148,7 @@ GIVESKILL EnergyShield 3
 GIVESKILL PetEnhancer 3
 GIVESKILL HealingCircle 3
 #SAY
-<Level/@Level>
+<等级/@Level>
 
 [@Assassin]
 #ACT
@@ -162,7 +162,7 @@ GIVEITEM BeltOfDarkness	1
 GIVEITEM BootsOfDarkness 1
 GIVEITEM HolyDCStone 1
 #SAY
-<Spells/@SpellsAssassin>
+<技能/@SpellsAssassin>
 
 [@SpellsAssassin]
 #ACT
@@ -181,7 +181,7 @@ GIVESKILL DarkBody 3
 GIVESKILL Hemorrhage 3
 GIVESKILL MoonMist 3
 #SAY
-<Level/@Level>
+<等级/@Level>
 
 [@Level]
 #ACT

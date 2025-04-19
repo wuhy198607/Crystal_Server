@@ -3,52 +3,52 @@
 #IF
 ISADMIN
 #SAY
-To teleport back to this map: {@MOVE R001 100 100/LimeGreen} / Or use {@GM/LimeGreen}
-Tip: {@observer/LIMEGREEN} if you want to be invisible to other players.
+要传送回这个地图：{@MOVE R001 100 100/LimeGreen} / 或使用 {@GM/LimeGreen}
+提示：{@observer/LIMEGREEN} 如果您想对其他玩家隐身。
  
-Teleport to <Towns/@TeleTownMain> , <Dungeons/@Dungeons> , <Dungeon Boss/@DungeonBoss>
-<Ancient Dungeons/@Ancient>
+传送到 <城镇/@TeleTownMain> , <地下城/@Dungeons> , <地下城首领/@DungeonBoss>
+<远古地下城/@Ancient>
  
  
-<Exit/@Exit>
+<退出/@Exit>
 #ELSEACT
 MOVE 0 300 300
 [@TeleTownMain]
 
-<Bichon Province/@TeleBichonProvince> , <Border Village/@TeleBorderVillage> , <Woomyon Woods/@TeleWoomyonWoods> , <Serpent Valley/@TeleSerpentValley>
-<Mongcon Province/@TeleMongconProvince> , <Sabuk Wall/@TeleSabukWall> , <Castle Gi-Ryoong/@TeleCastleGiRyoong> , <Prajna Island/@TelePrajnaIsland>
-<Past Bichon/@TelePastBichon> , <Tao Village/@TeleTaoVillage> , <Waste Land/@TeleWasteLand> , <Seokcho Valley/@TeleSeokchoValley> , <White Village/@TeleWhiteVillage>
-<Forgoten City/@ForgotenCity> , <TreePath/@TreePath>
+<比奇省/@TeleBichonProvince> , <边境村/@TeleBorderVillage> , <武明森林/@TeleWoomyonWoods> , <蛇谷/@TeleSerpentValley>
+<蒙重省/@TeleMongconProvince> , <沙巴克城墙/@TeleSabukWall> , <吉龙城堡/@TeleCastleGiRyoong> , <般若岛/@TelePrajnaIsland>
+<过去的比奇/@TelePastBichon> , <道观村/@TeleTaoVillage> , <荒地/@TeleWasteLand> , <石草谷/@TeleSeokchoValley> , <白村/@TeleWhiteVillage>
+<遗忘之城/@ForgotenCity> , <树径/@TreePath>
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@Ancient]
 
-<AncientNaturalCave/@ANC> , <AncientWoomaTemple/@AWT> , <AncientStoneTomb/@AST> , 
-<AncientZumaTemple/@AZT> , <AncientPrajnaCave/@APC>
+<远古自然洞穴/@ANC> , <远古沃玛神殿/@AWT> , <远古石墓/@AST> , 
+<远古祖玛神殿/@AZT> , <远古般若洞穴/@APC>
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@Dungeons]
 
-<Oma Cave/@OmaCave> , <Natural Cave/@NaturalCave> , <Wooma Temple/@WoomaTemple> , <Dead Mine/@DeadMine> , <Insect Cave/@InsectCave> ,
-<Fox Cave/@FoxCave> , <Zuma Temple/@ZumaTemple> , <Bug Cave/@BugCave> , <Stone Temple/@StoneTemple> , 
-<Ice Hell/@IceHell> , <Mineral Mine/@MineralMine> , <Hell Cavern/@HellCavern> , <Hell Fire/@HellFire> , 
-<Red Cavern/@RedCavern> , <Prajna Temple/@PrajnaTemple> , <Prajna Stone Cave/@PrajnaStoneCave> , 
-<Black Dragon Dungeon/@BlackDragonDungeon> , <Ghoul Cave/@GhoulCave> , <Mystery Cave/@MysteryCave> , 
-<Swamp/@Swamp> , <Red Valley/@RedValley> , <Lunar/@Lunar> , <Viper Path/@ViperPath> , <WhiteDragonPassage/@WDP> , 
-<Snow Cavern/@SnowCavern>
+<欧玛洞穴/@OmaCave> , <自然洞穴/@NaturalCave> , <沃玛神殿/@WoomaTemple> , <死亡矿井/@DeadMine> , <昆虫洞穴/@InsectCave> ,
+<狐狸洞穴/@FoxCave> , <祖玛神殿/@ZumaTemple> , <虫穴/@BugCave> , <石庙/@StoneTemple> , 
+<冰地狱/@IceHell> , <矿物矿洞/@MineralMine> , <地狱洞穴/@HellCavern> , <地狱之火/@HellFire> , 
+<红色洞穴/@RedCavern> , <般若神殿/@PrajnaTemple> , <般若石洞/@PrajnaStoneCave> , 
+<黑龙地下城/@BlackDragonDungeon> , <食尸鬼洞穴/@GhoulCave> , <神秘洞穴/@MysteryCave> , 
+<沼泽/@Swamp> , <红谷/@RedValley> , <月神殿/@Lunar> , <毒蛇之路/@ViperPath> , <白龙通道/@WDP> , 
+<雪洞/@SnowCavern>
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@DungeonBoss]
-Tip: {@gamemaster/LimeGreen} before you move.
+提示：{@gamemaster/LimeGreen} 在传送之前。
  
-<Oma King Spirit/@OmaKingSpirit> , <Evil Centipede/@EvilCentipede> , <Evil Snake/@EvilSnake> , <Zuma Taurus/@ZumaTaurus>
-<Great Fox Spirit/@GreatFoxSpirit> , <Wooma Taurus/@WoomaTaurus> , <King Scorpion/@KingScorpion> , <King Hog/@KingHog>
-<Dark Devil/@DarkDevil> , <Red Moon Evil/@RedMoonEvil> , <Minotaur King/@MinotaurKing>
+<欧玛王灵魂/@OmaKingSpirit> , <邪恶蜈蚣/@EvilCentipede> , <邪恶之蛇/@EvilSnake> , <祖玛金牛/@ZumaTaurus>
+<大狐仙/@GreatFoxSpirit> , <沃玛金牛/@WoomaTaurus> , <蝎子王/@KingScorpion> , <野猪王/@KingHog>
+<暗黑恶魔/@DarkDevil> , <红月恶魔/@RedMoonEvil> , <牛头王/@MinotaurKing>
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 ‎ 
 ‎ 
 ‎ 
@@ -59,13 +59,13 @@ Tip: {@gamemaster/LimeGreen} before you move.
 //////////////////////////////////////////////////////////////////// BW
 [@TeleBichonProvince]
 #SAY
-<Weapon shop/@BWWEP>   <Armour shop/@BWCLOTHES>   <Inn/@BWINN>
-<Accessory shop/@BWJEWL>   <Reagent Store/@BWPOT>   <Bichon Inner Wall/@BWPAL>
-<Book store/@BWBOOK>  <Butcher's shop/@BWMEAT>   <Hairdresser/@BWHAIR>
-<Tavern/@BWTAVERN>  <Safezone/@BWSZ>  <Contest Room/@ContestRoom>  <Prison/@Prison>
+<武器店/@BWWEP>   <防具店/@BWCLOTHES>   <客栈/@BWINN>
+<饰品店/@BWJEWL>   <杂货店/@BWPOT>   <比奇内城/@BWPAL>
+<书店/@BWBOOK>  <肉铺/@BWMEAT>   <理发店/@BWHAIR>
+<酒馆/@BWTAVERN>  <安全区/@BWSZ>  <竞技场/@ContestRoom>  <监狱/@Prison>
 
-Caves: <Oma Cave/@OmaCave> , <Natural Cave/@NaturalCave> , <Dead Mines/@DeadMine>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<欧玛洞穴/@OmaCave> , <自然洞穴/@NaturalCave> , <死亡矿井/@DeadMine>
+<主菜单/@Main> - <退出/@Exit>
 [@@BWWEP]
 #ACT
 Move 0103
@@ -112,26 +112,26 @@ MOVE 0 288 616
 //////////////////////////////////////////////////////////////////// WW *No Shops*
 [@TeleWoomyonWoods]
 #SAY
-I will guide you to the desired store.
-Where shall I teleport you?
+我将引导您前往所需的商店。
+您想传送到哪里？
 
-<Safezone/@WWSZ>
+<安全区/@WWSZ>
 
-Caves: <Insect Cave/@InsectCave> , <WoomaTemple/@WoomaTemple>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<昆虫洞穴/@InsectCave> , <沃玛神殿/@WoomaTemple>
+<主菜单/@Main> - <退出/@Exit>
 [@WWSZ]
 #ACT
 MOVE 1 315 82
 //////////////////////////////////////////////////////////////////// SV
 [@TeleSerpentValley]
 #SAY
-I will guide you to the desired store.
-Where shall I teleport you?
+我将引导您前往所需的商店。
+您想传送到哪里？
 
-<Weapon shop/@SVWEP>   <Reagent store/@SVPOT>  <Safezone/@SVSZ>
+<武器店/@SVWEP>   <杂货店/@SVPOT>  <安全区/@SVSZ>
 
-Caves: <Serpent Dead Mine/@SDeadMine>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<蛇谷死亡矿井/@SDeadMine>
+<主菜单/@Main> - <退出/@Exit>
 [@SVWEP]
 #ACT
 MOVE 0120
@@ -144,15 +144,15 @@ MOVE 2 503 483
 //////////////////////////////////////////////////////////////////// Monghcon
 [@TeleMongconProvince]
 #SAY
-I can send you several places nearby.
+我可以送您去附近的几个地方。
 
-<Blacksmith/@MONWEP>   <Armour shop/@MONCLOTHES>
-<Book store/@MONBOOK>   <Accessory shop/@MONJEWL>
-<Inn/@MONINN>  <Safezone/@MONSZ>
+<铁匠铺/@MONWEP>   <防具店/@MONCLOTHES>
+<书店/@MONBOOK>   <饰品店/@MONJEWL>
+<客栈/@MONINN>  <安全区/@MONSZ>
 
-Caves: <Bug Cave/@BugCave> , <Zuma Temple/@ZumaTemple> , 
-<Fox Cave/@FoxCave> , <Swamp/@Swamp> , <Stone Temple/@StoneTemple>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<虫穴/@BugCave> , <祖玛神殿/@ZumaTemple> , 
+<狐狸洞穴/@FoxCave> , <沼泽/@Swamp> , <石庙/@StoneTemple>
+<主菜单/@Main> - <退出/@Exit>
 [@MONWEP]
 #ACT
 Move 0159
@@ -177,24 +177,24 @@ MOVE 3 652 298
 //////////////////////////////////////////////////////////////////// CGR *No Shops*
 [@TeleCastleGiRyoong]
 #SAY
-I can send you several places nearby.
+我可以送您去附近的几个地方。
 
-<Safezone/@CGRSZ>
+<安全区/@CGRSZ>
 
-Caves: <BlackDragonDungeon/@BlackDragonDungeon> , <White Dragon Passage/@WhiteDragonPassage>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<黑龙地下城/@BlackDragonDungeon> , <白龙通道/@WhiteDragonPassage>
+<主菜单/@Main> - <退出/@Exit>
 [@CGRSZ]
 #ACT
 MOVE 4 229 205
 //////////////////////////////////////////////////////////////////// PI
 [@TelePrajnaIsland]
 #SAY
-<Weapon shop/@PIWEP>   <Armour shop/@PICLOTHES>
-<Reagent store/@PIPOT>   <Accessory shop/@PIJEWL>
-<Village Chief House/@PICHIEF>  <Safezone@PISZ>
+<武器店/@PIWEP>   <防具店/@PICLOTHES>
+<杂货店/@PIPOT>   <饰品店/@PIJEWL>
+<村长家/@PICHIEF>  <安全区@PISZ>
 
-Caves: <Prajna Temple/@PrajnaTemple> , <Prajna Stone Cave/@PrajnaStoneCave>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<般若神殿/@PrajnaTemple> , <般若石洞/@PrajnaStoneCave>
+<主菜单/@Main> - <退出/@Exit>
 [@PIJEWL]
 #ACT
 MOVE B352
@@ -220,13 +220,13 @@ MOVE 6 124 157
 //////////////////////////////////////////////////////////////////// TV
 [@TeleTaoVillage]
 #SAY
-<Weapon shop/@TVWEP>   <Armour shop/@TVCLOTHES>
-<Accessory shop/@TVJEWL>   <Reagent store/@TVPOT>
-<Book store/@TVBOOK>   <Grocery store/@TVPED>  <Safezone/@TVSZ>
+<武器店/@TVWEP>   <防具店/@TVCLOTHES>
+<饰品店/@TVJEWL>   <杂货店/@TVPOT>
+<书店/@TVBOOK>   <杂货店/@TVPED>  <安全区/@TVSZ>
 
-Caves: <Mineral Mines/@MineralMine> , <Dark Forest/@DarkForest> ,
-<Red Valley/@RedValley> , <Lunar/@Lunar>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<矿物矿洞/@MineralMine> , <黑暗森林/@DarkForest> ,
+<红谷/@RedValley> , <月神殿/@Lunar>
+<主菜单/@Main> - <退出/@Exit>
 [@TVBOOK]
 #ACT
 MOVE 1004
@@ -259,12 +259,12 @@ MOVE UMM 131 179
 //////////////////////////////////////////////////////////////////// White Village
 [@TeleWhiteVillage]
 #SAY
-<Weapon shop/@WVWEP>   <Armour shop/@WVCLOTHES>   <Accessory shop/@WVJEWL>   
-<General Store/@WVPOT>   <Book store/@WVBOOK>  <Storage/@WVINN>
-<Safezone/@WVSZ>
+<武器店/@WVWEP>   <防具店/@WVCLOTHES>   <饰品店/@WVJEWL>   
+<杂货店/@WVPOT>   <书店/@WVBOOK>  <仓库/@WVINN>
+<安全区/@WVSZ>
 
-Caves: <Snow Cavern/@SnowCavern>
-<Main Menu/@Main> - <Exit/@Exit>
+洞穴：<雪洞/@SnowCavern>
+<主菜单/@Main> - <退出/@Exit>
 [@WVWEP]
 #ACT
 MOVE whitevillage 286 234
@@ -276,7 +276,7 @@ MOVE whitevillage 279 242
 MOVE whitevillage 329 237
 [@WVPOT]
 #ACT
-MOVE whitevillage 270 248
+MOVE whitevilage 270 248
 [@WVBOOK]
 #ACT
 MOVE whitevilage 334 248
@@ -298,7 +298,7 @@ MOVE MORAE 175 72
 [@TreePath]
 #SAY
 To Do
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 //////////////////////////////////////////////////////////////////// CAVES
 //////////////////////////////////////////////////////////////////// Ghoul Cave
 [@GhoulCave]
@@ -315,14 +315,14 @@ TO DO
 //////////////////////////////////////////////////////////////////// OC
 [@OmaCave]
 #SAY
-<OmaCave_1F/@OC1>
-<OmaCave_2/@OC2>
-<HiddenRoom/@OC3>
-<KingsTomb/@OC4>
-<OmaCave_3F/@OC5>
+<欧玛洞穴_1F/@OC1>
+<欧玛洞穴_2/@OC2>
+<隐藏房间/@OC3>
+<国王墓地/@OC4>
+<欧玛洞穴_3F/@OC5>
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@OC1]
 #ACT
 MOVE D001 151 361
@@ -341,14 +341,14 @@ MOVE D003 109 85
 //////////////////////////////////////////////////////////////////// NC
 [@NaturalCave]
 #SAY
-<NaturalCave_1F/@NC1>
-<NaturalCave_2/@NC2>
-<HiddenRoom/@NC3>
+<自然洞穴_1F/@NC1>
+<自然洞穴_2/@NC2>
+<隐藏房间/@NC3>
  
  
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@NC1]
 #ACT
 MOVE D011 150 364
@@ -361,14 +361,14 @@ MOVE DM001 4 9
 //////////////////////////////////////////////////////////////////// IC
 [@InsectCave]
 #SAY
-<InsectCave_1F/@IC1>
-<InsectCave_2F/@IC2>
-<InsectCave_3F/@IC3>
-<InsectCave_4F/@IC4>
+<昆虫洞穴_1F/@IC1>
+<昆虫洞穴_2F/@IC2>
+<昆虫洞穴_3F/@IC3>
+<昆虫洞穴_4F/@IC4>
  
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@IC1]
 #ACT
 MOVE D2041 65 283
@@ -384,14 +384,14 @@ MOVE D2044 258 211
 //////////////////////////////////////////////////////////////////// WT
 [@WoomaTemple]
 #SAY
-<WoomaTempleEntrance/@WT1>
-<WoomaTemple_1F/@WT2>
-<WoomaTemple_2F/@WT3>
-<WoomaTemple (KR)/@WT4>
+<沃玛神殿入口/@WT1>
+<沃玛神殿_1F/@WT2>
+<沃玛神殿_2F/@WT3>
+<沃玛神殿 (KR)/@WT4>
  
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@WT1]
 #ACT
 MOVE D021 73 71
@@ -407,19 +407,19 @@ MOVE D024 17 21
 //////////////////////////////////////////////////////////////////// DM
 [@DeadMine]
 #SAY
-<DeadMineEntrance/@DM1>
+<死亡矿井入口/@DM1>
 <B1ofMine/@DM2>
 <B1ofMine/@DM3>
-<EastofDeadMine/@DM4>
+<东死亡矿井/@DM4>
 <B1ofMine/@DM5>
 <B2ofDeadMine/@DM6>
-<OverPass/@DM7>
-<1FofDeadMine/@DM8>
-<OverPass/@DM9>
-<OreStoragePlace/@DM10>
-<OverPass/@DM11>
-<SouthofDeadMine/@DM12>
-<Main Menu/@Main> - <Exit/@Exit>
+<上层/@DM7>
+<1F死亡矿井/@DM8>
+<上层/@DM9>
+<矿物存储地/@DM10>
+<上层/@DM11>
+<南死亡矿井/@DM12>
+<主菜单/@Main> - <退出/@Exit>
 [@DM1]
 #ACT
 MOVE D401 25 181
@@ -459,14 +459,14 @@ MOVE D406 185 122
 //////////////////////////////////////////////////////////////////// FC
 [@FoxCave]
 #SAY
-<SealedMaze/@FC1>
-<SacredFoxHill/@FC2>
-<SacredFoxTemple/@FC3>
+<密封迷宫/@FC1>
+<神圣狐山/@FC2>
+<神圣狐神殿/@FC3>
  
  
  
  
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@FC1]
 #ACT
 MOVE Fox01 117 21
@@ -479,11 +479,11 @@ MOVE Fox03 33 51
 //////////////////////////////////////////////////////////////////// ZT
 [@ZumaTemple]
 #SAY
-<LobbyofZumaTemple/@ZT1> , <ZumaTemple_1F/@ZT2> , <ZumaTemple_2F/@ZT3> , <ZumaTemple_3F/@ZT4> , 
-<ZumaTemple_4F/@ZT5> , <ZumaTemple_5F/@ZT6> , 
-<ZumaTempleLobby_7F/@ZT7> , <ZumaTemple_7F/@ZT8> , <ZumaTemple_7F/@ZT9> , <ZumaTemple_7F/@ZT10> ,
-<ZumaTemple/@ZT11>
-<Main Menu/@Main> - <Exit/@Exit>
+<祖玛神殿入口/@ZT1> , <祖玛神殿_1F/@ZT2> , <祖玛神殿_2F/@ZT3> , <祖玛神殿_3F/@ZT4> , 
+<祖玛神殿_4F/@ZT5> , <祖玛神殿_5F/@ZT6> , 
+<祖玛神殿入口_7F/@ZT7> , <祖玛神殿_7F/@ZT8> , <祖玛神殿_7F/@ZT9> , <祖玛神殿_7F/@ZT10> ,
+<祖玛神殿/@ZT11>
+<主菜单/@Main> - <退出/@Exit>
 [@ZT1]
 #ACT
 MOVE 0157 11 23
@@ -526,7 +526,7 @@ MOVE D515 15 30
 
 <StoneLanternRoom/@BC14> , <AmethystRoom/@BC15> , <StoneCarvedStream/@BC16> , <StrangeRocksRoom/@BC17> , <StrangeRocksPath/@BC18>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@BC1]
 #ACT
 MOVE D601 207 236
@@ -588,7 +588,7 @@ MOVE D611
 <B3_AngledStoneTomb/@ST3> , <B4_AngledStoneTomb/@ST4> , <B5_AngledStoneTomb/@ST5> , 
 <B6_AngledStoneTomb/@ST6> , <B7_AngledStoneTomb/@ST7> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@ST1]
 #ACT
 MOVE D711 203 201
@@ -616,10 +616,10 @@ MOVE D710 28 20
 //////////////////////////////////////////////////////////////////// ICE HELL *Movements missing*
 [@IceHell]
 #SAY
-<IceHellCavern/@ICH1> , <IceHellTemple(S/@ICH2>) , <IceHellTemple(N)/@ICH3> , 
-<IceHellPass/@ICH4> , <DangerousCavern/@ICH5> , <IceHellTemple_KR/@ICH6>
+<冰地狱入口/@ICH1> , <冰地狱神殿(S/@ICH2>) , <冰地狱神殿(N)/@ICH3> , 
+<冰地狱通道/@ICH4> , <危险洞穴/@ICH5> , <冰地狱神殿_KR/@ICH6>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@ICH1]
 #ACT
 MOVE HELL201
@@ -641,12 +641,12 @@ MOVE HELL206
 //////////////////////////////////////////////////////////////////// MM
 [@MineralMine]
 #SAY
-<MineralMine_1F/@MM1>
-<MineralMine_2F/@MM2>
-<MineralMine_3F/@MM3>
-<MineralMine_4F/@MM4>
+<矿物矿洞_1F/@MM1>
+<矿物矿洞_2F/@MM2>
+<矿物矿洞_3F/@MM3>
+<矿物矿洞_4F/@MM4>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@MM1]
 #ACT
 MOVE D2031 276 281
@@ -662,11 +662,11 @@ MOVE D2034 274 44
 //////////////////////////////////////////////////////////////////// HELL CAVERN
 [@HellCavern]
 #SAY
-<HellCavern_1F/@HC1>
-<HellCavern_2F/@HC2>
-<HellOverpass/@HC3>
+<地狱洞穴_1F/@HC1>
+<地狱洞穴_2F/@HC2>
+<地狱上层/@HC3>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@HC1]
 #ACT
 MOVE HELL01 24 45
@@ -679,12 +679,12 @@ MOVE HELL03 20 275
 //////////////////////////////////////////////////////////////////// RED CAVERN
 [@RedCavern]
 #SAY
-<RedCavern_1F/@RC1> , <RedCavern_2F/@RC2> , <RedCavern_3F/@RC3> , <RedCavern_4F/@RC4> , 
-<RedCavern_5F/@RC5> , <RedCavern_6F/@RC6> , <RedCavern_7F/@RC7> , <RedCavern_8F/@RC8> , 
-<RedCavern_9F/@RC9> , <RedCavern_10F/@RC10> , <RedCavern_11F/@RC11> , <RedCavern_12F/@RC12> , 
-<RedCavern_KR/@RC13>
+<红色洞穴_1F/@RC1> , <红色洞穴_2F/@RC2> , <红色洞穴_3F/@RC3> , <红色洞穴_4F/@RC4> , 
+<红色洞穴_5F/@RC5> , <红色洞穴_6F/@RC6> , <红色洞穴_7F/@RC7> , <红色洞穴_8F/@RC8> , 
+<红色洞穴_9F/@RC9> , <红色洞穴_10F/@RC10> , <红色洞穴_11F/@RC11> , <红色洞穴_12F/@RC12> , 
+<红色洞穴_KR/@RC13>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@RC1]
 #ACT
 MOVE R01 50 33
@@ -727,11 +727,11 @@ MOVE RCK 18 103
 //////////////////////////////////////////////////////////////////// PT
 [@PrajnaTemple]
 #SAY
-<PrajnaTempleLobby/@PT1> , <PrajnaTemple_1F/@PT2> , <PrajnaTemple_2F/@PT3> , <PrajnaTemple_3F/@PT4> , 
-<PrajnaTemple_4F/@PT5> , <PrajnaTemple(E)_5F/@PT6> , <PrajnaTemple(W)_5F/@PT7> , <PrajnaTemple_6F/@PT8> , 
-<PrajnaTemple_7F/@PT9> , <PrajnaTemple/@PT10> (KR)
+<般若神殿入口/@PT1> , <般若神殿_1F/@PT2> , <般若神殿_2F/@PT3> , <般若神殿_3F/@PT4> , 
+<般若神殿_4F/@PT5> , <般若神殿(E)_5F/@PT6> , <般若神殿(W)_5F/@PT7> , <般若神殿_6F/@PT8> , 
+<般若神殿_7F/@PT9> , <般若神殿/@PT10> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@PT1]
 #ACT
 MOVE D2070 32 36
@@ -765,11 +765,11 @@ MOVE D2079 14 15
 //////////////////////////////////////////////////////////////////// PSC
 [@PrajnaStoneCave]
 #SAY
-<PrajnaStoneCave_1F/@PSC1> , <PrajnaStoneCave_2F/@PSC2> , <PrajnaStoneCave(E)_3F/@PSC3> , 
-<PrajnaStoneCave(W)_3F/@PSC4> , <PrajnaStoneCave_4F/@PSC5> , <PrajnaStoneCave_5F/@PSC6> , 
-<PrajnaStoneCave_6F/@PSC7> (KR)
+<般若石洞_1F/@PSC1> , <般若石洞_2F/@PSC2> , <般若石洞(E)_3F/@PSC3> , 
+<般若石洞(W)_3F/@PSC4> , <般若石洞_4F/@PSC5> , <般若石洞_5F/@PSC6> , 
+<般若石洞_6F/@PSC7> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@PSC1]
 #ACT
 MOVE D2061 157 178
@@ -794,12 +794,12 @@ MOVE D2067 153 165
 //////////////////////////////////////////////////////////////////// BDD
 [@BlackDragonDungeon]
 #SAY
-<BlackDragonDungeon/@BDD1> , <BlackSnakePalace/@BDD2> ,<BlackDragonDungeon_1F/@BDD3> ,<BlackDragonDungeon_2F/@BDD4> ,
-<PurgatoryHall/@BDD5> ,<WoomaPalace/@BDD6> ,<HwanMaJin/@BDD7> ,<NobleHogPalace/@BDD8> ,
-<SoleSpiritHall/@BDD9> ,<HwanMaJin2/@BDD10> ,<ZumaPalace/@BDD11> ,<PrisonHall/@BDD12> ,
-<DarkDevilPalace/@BDD13>
+<黑龙地下城/@BDD1> , <黑蛇宫殿/@BDD2> ,<黑龙地下城_1F/@BDD3> ,<黑龙地下城_2F/@BDD4> ,
+<炼狱大厅/@BDD5> ,<沃玛宫殿/@BDD6> ,<华玛金/@BDD7> ,<贵族野猪宫殿/@BDD8> ,
+<独眼精神大厅/@BDD9> ,<华玛金2/@BDD10> ,<祖玛宫殿/@BDD11> ,<监狱大厅/@BDD12> ,
+<暗黑恶魔宫殿/@BDD13>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@BDD1]
 #ACT
 MOVE D2001 255 266
@@ -842,12 +842,12 @@ MOVE D2013 81 81
 //////////////////////////////////////////////////////////////////// Hell Fire
 [@HellFire]
 #SAY
-<HellFire_1F/@HF1>
-<HellFire_2F/@HF2>
-<HellFire_3F/@HF3>
-<HellFire_KingsRoom/@HF4>
+<地狱之火_1F/@HF1>
+<地狱之火_2F/@HF2>
+<地狱之火_3F/@HF3>
+<地狱之火_国王房间/@HF4>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@HF1]
 #ACT
 MOVE HF1 27 39
@@ -863,12 +863,12 @@ MOVE HKR 15 35
 //////////////////////////////////////////////////////////////////// Red Valley *Movements missing*
 [@RedValley]
 #SAY
-<RedValley_1F/@RV1> , <RedValley_2F/@RV2> , <RedValley_3F/@RV3> , <RedValley_4F/@RV4> , 
-<RedValley_5F/@RV5> , <RedValley_6F/@RV6> , <RedValley_7F/@RV7> , <RedValley_8F/@RV8> , 
-<RedValley_9F/@RV9> , <RedValley_10F/@RV10> , <RedValley_11F/@RV11> , <Great_TaoTomb/@RV12> ,
-<RedMoonRoom/@RV13> (KR)
+<红谷_1F/@RV1> , <红谷_2F/@RV2> , <红谷_3F/@RV3> , <红谷_4F/@RV4> , 
+<红谷_5F/@RV5> , <红谷_6F/@RV6> , <红谷_7F/@RV7> , <红谷_8F/@RV8> , 
+<红谷_9F/@RV9> , <红谷_10F/@RV10> , <红谷_11F/@RV11> , <大刀客墓地/@RV12> ,
+<红月房间/@RV13> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@RV1]
 #ACT
 MOVE D10011
@@ -911,12 +911,12 @@ MOVE D10062
 //////////////////////////////////////////////////////////////////// Swamp *Movements missing*
 [@Swamp]
 #SAY
-<SwampCavern_1F/@S1>
-<SwampCavern_2F/@S2>
-<Swamp/@S3>
-<DarkSwamp/@S4>
+<沼泽_1F/@S1>
+<沼泽_2F/@S2>
+<沼泽/@S3>
+<黑暗沼泽/@S4>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@S1]
 #ACT
 MOVE EBEE01
@@ -932,10 +932,10 @@ MOVE EBEEBOSS
 //////////////////////////////////////////////////////////////////// Lunar *Movements missing*
 [@Lunar]
 #SAY
-<Lunar_1F/@L1> , <Lunar_2F/@L2> , <Lunar_3F/@L3>
-<Lunar_4F/@L4> , <LunarRoom/@L5> (KR)
+<月神殿_1F/@L1> , <月神殿_2F/@L2> , <月神殿_3F/@L3>
+<月神殿_4F/@L4> , <月神殿房间/@L5> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@L1]
 #ACT
 MOVE Hell301s
@@ -959,10 +959,10 @@ CHECK TRELLO BOARD.
 //////////////////////////////////////////////////////////////////// WhiteDragonPassage *Movements missing*
 [@WDP]
 #SAY
-<WhiteDragonPassage 1F/@WDP1> , <WhiteDragonPassage 2F/@WDP2> , <WhiteDragonHillSide/@WDP3> , 
-<WhiteDragonPassage 4F/@WDP4> , <WhiteDragonPassage 5F/@WDP5>
+<白龙通道_1F/@WDP1> , <白龙通道_2F/@WDP2> , <白龙山侧/@WDP3> , 
+<白龙通道_4F/@WDP4> , <白龙通道_5F/@WDP5>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@WDP1]
 #ACT
 MOVE bonguk1
@@ -981,9 +981,9 @@ MOVE bonguk5
 //////////////////////////////////////////////////////////////////// Snow Cavern
 [@SnowCavern]
 #SAY
-<SnowCavern_1F/@SC1> , <SnowCavern_2F/@SC2> , <TheSnowLair/@SC3> (KR)
+<雪洞_1F/@SC1> , <雪洞_2F/@SC2> , <雪洞大厅/@SC3> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@SC1]
 #ACT
 MOVE SnowCave_1F 28 263
@@ -998,9 +998,9 @@ MOVE SnowCave_BOSS 27 33
 //////////////////////////////////////////////////////////////////// Ancient Natural Cave
 [@ANC]
 #SAY
-<AncientNaturalCave/@ANC1> , <AncientNaturalCave 2F/@ANC2> , <AncientNaturalCave 3F/@ANC3>
+<远古自然洞穴/@ANC1> , <远古自然洞穴 2F/@ANC2> , <远古自然洞穴 3F/@ANC3>
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@ANC1]
 #ACT
 MOVE D001A 152 361
@@ -1013,10 +1013,10 @@ MOVE D003A 108 86
 //////////////////////////////////////////////////////////////////// Ancient WT
 [@AWT]
 #SAY
-<AncientTempleEntrance/@AWT1> , <AncientTemple_1F/@AWT2> , 
-<AncientTemple_2F/@AWT3> , <AncientTemple/@AWT4> (KR)
+<远古沃玛神殿入口/@AWT1> , <远古沃玛神殿_1F/@AWT2> , 
+<远古沃玛神殿_2F/@AWT3> , <远古沃玛神殿/@AWT4> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@AWT1]
 #ACT
 MOVE D021A 73 71
@@ -1032,10 +1032,10 @@ MOVE D024A 17 21
 //////////////////////////////////////////////////////////////////// AncientStoneTomb
 [@AST]
 #SAY
-<AncientSTombEntrance/@AST1> , <AncientSTomb_1F/@AST2> , 
-<AncientSTomb_2F/@AST3> , <AncientSTomb_3F/@AST4> (KR)
+<远古石墓入口/@AST1> , <远古石墓_1F/@AST2> , 
+<远古石墓_2F/@AST3> , <远古石墓_3F/@AST4> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@AST1]
 #ACT
 MOVE D710A 28 21
@@ -1051,10 +1051,10 @@ MOVE D713A 34 189
 //////////////////////////////////////////////////////////////////// AncientZumaTemple
 [@AZT]
 #SAY
-<AncientZumaLobby/@AZT1> , <AncientZuma_1F/@AZT2> , 
-<AncientZuma_2F/@AZT3> , <AncientZuma_3F/@AZT4> (KR)
+<远古祖玛神殿入口/@AZT1> , <远古祖玛神殿_1F/@AZT2> , 
+<远古祖玛神殿_2F/@AZT3> , <远古祖玛神殿_3F/@AZT4> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@AZT1]
 #ACT
 MOVE 0157A 15 20
@@ -1070,9 +1070,9 @@ MOVE D503A 166 215
 //////////////////////////////////////////////////////////////////// AncientPrajnaCave
 [@APC]
 #SAY
-<AncientPrajna_1F/@APC1> , <AncientPrajna_2F/@APC2> , <AncientPrajna_3F/@APC3> (KR)
+<远古般若洞穴_1F/@APC1> , <远古般若洞穴_2F/@APC2> , <远古般若洞穴_3F/@APC3> (KR)
 
-<Main Menu/@Main> - <Exit/@Exit>
+<主菜单/@Main> - <退出/@Exit>
 [@APC1]
 #ACT
 MOVE D2051A 111 175

@@ -4,8 +4,8 @@
 CHECKQUEST 135 0
 #ACT
 SET [525] 1
-LocalMessage "You've found the Stone in StoneTemple" Hint
-LocalMessage "Return to the MongchonDelegate" Hint
+LocalMessage "你找到了石庙中的石头" Hint
+LocalMessage "返回蒙重代表处" Hint
 GOTO @Check2
 #ELSEACT
 GOTO @Check2
@@ -16,23 +16,23 @@ CHECKQUEST 153 1
 #ACT
 GOTO @MAIN-1
 #ELSESAY
-Nothing happens.
+什么都没有发生。
 
 [@MAIN-1]
 #IF
 LEVEL > 21
 LEVEL < 43
 #SAY
-A Mysterious Stone. With Ancient symbols.
-"The noise rumbles the faint whispers are <creepy/@stonetomba>"
-{StoneHeart/LightSteelBlue} Required {Level22~43./KHAKI}
+一块刻有古老符号的神秘石头。
+"低语声在黑暗中回荡，令人毛骨悚然 <进入/@stonetomba>"
+需要 {StoneHeart/LightSteelBlue} {等级22~43/KHAKI}
  
-<Close/@exit>
+<关闭/@exit>
 #ELSESAY
-Nothing happens.
+什么都没有发生。
  
  
-<Close/@exit>
+<关闭/@exit>
 
 [@stonetomba]
 #IF
@@ -41,6 +41,6 @@ CHECKITEM StoneHeart 1
 TAKEITEM StoneHeart 1
 MOVE D710A 29 17
 #ELSESAY
-Nothing happens.
+什么都没有发生。
  
-<Close/@exit>
+<关闭/@exit>

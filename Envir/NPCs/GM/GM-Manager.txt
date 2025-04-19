@@ -2,14 +2,14 @@
 #IF
 ISADMIN
 #SAY
-Managing the affairs of a Game Master like you is a pleasure.
-What function would you like me to perform today <$DATE>
+为您这样的游戏管理员服务是我的荣幸。
+今天 <$DATE> 您需要我执行什么功能？
 
-<Guild Application/@CreateGuildCheck> , <View Market/@MARKET> , <Hero Management/@Hero>
-<Kill my Pets/@KillPets> , <Open my Storage/@STORAGE> , <Reset Quest Flags/@ResetQuestFlags>
-<Rebirth Panel/@RebirthPanel> , <Event Management Page/@EventManagement> , <Guild Territory/@GT>
+<公会申请/@CreateGuildCheck> , <查看市场/@MARKET> , <英雄管理/@Hero>
+<清除我的宠物/@KillPets> , <打开我的仓库/@STORAGE> , <重置任务标记/@ResetQuestFlags>
+<转生面板/@RebirthPanel> , <事件管理页面/@EventManagement> , <公会领地/@GT>
  
-<Exit/@Exit>
+<退出/@Exit>
 #ELSEACT
 MOVE 0 300 300
 
@@ -43,20 +43,20 @@ GOTO @CREATEGUILD
 [@KillPets]
 #ACT
 CLEARPETS
-LINEMESSAGE "Your pets are now dead as you requested." Hint
+LINEMESSAGE "您的宠物已按您的要求清除。" Hint
 
 
 [@CREATEGUILD]
 
 [@STORAGE]
 #SAY
-Trust me, I'm looking after your stuff.
+请放心，我会好好保管您的物品。
  
  
  
  
- 
-Menu: <Main Menu/@Main> - <Exit/@Exit>
+
+菜单: <主菜单/@Main> - <退出/@Exit>
 
 
 [@ResetQuestFlags]
@@ -72,34 +72,33 @@ SET [507] 0
 SET [508] 0
 SET [509] 0
 SET [510] 0
-LINEMESSAGE "All quest flags have been reset." Hint
+LINEMESSAGE "所有任务标记已重置。" Hint
 
 [@EventManagement]
 #SAY
-This could be used for starting global events and other stuff as the
-server develops and adds in more functionality over time.
+随着服务器的发展和功能的增加，这里可以用来启动全局事件和其他功能。
 
-<<SabukWall/@Sabuk>>
+<<沙巴克城墙/@Sabuk>>
  
  
  
  
  
-<Back/@Main>
+<返回/@Main>
 
 [@Sabuk]
 #SAY
-Sabuk Wall Management Panel
+沙巴克城墙管理面板
 
-<Start War/End War/@StartWar>             <Statistics/@SWStatistics>
-<Teleport to InnerWall/@InnerWall>
-<Guard Check/@Guards>
-<Gate/Wall Check/@Gates>
-<Repair All/@SWReset>
+<开始战争/结束战争/@StartWar>             <统计信息/@SWStatistics>
+<传送到内墙/@InnerWall>
+<守卫检查/@Guards>
+<城门/城墙检查/@Gates>
+<修复所有/@SWReset>
 
-Current Owner of SabukWall is: <$CONQUESTOWNER(1)>
+当前沙巴克城墙所有者: <$CONQUESTOWNER(1)>
 
-<Back/@EventManagement>     <Exit/@Exit>
+<返回/@EventManagement>     <退出/@Exit>
 
 [@StartWar]
 #ACT
@@ -112,74 +111,74 @@ MOVE 0150 12 15
 [@Guards]
 #SAY
 
-<Revive All/@RepairAll>
+<复活所有/@RepairAll>
 
-<$CONQUESTGUARD(1,1)>   <Repair/@Guard1>
-<$CONQUESTGUARD(1,2)>   <Repair/@Guard2>
-<$CONQUESTGUARD(1,3)>   <Repair/@Guard3>
-<$CONQUESTGUARD(1,4)>   <Repair/@Guard4>
-<$CONQUESTGUARD(1,5)>   <Repair/@Guard5>
-<$CONQUESTGUARD(1,6)>   <Repair/@Guard6>
-<$CONQUESTGUARD(1,7)>   <Repair/@Guard7>
-<$CONQUESTGUARD(1,8)>   <Repair/@Guard8>
-<$CONQUESTGUARD(1,9)>   <Repair/@Guard9>
-<$CONQUESTGUARD(1,10)>   <Repair/@Guard10>
-<$CONQUESTGUARD(1,11)>   <Repair/@Guard11>
-<$CONQUESTGUARD(1,12)>   <Repair/@Guard12>
+<$CONQUESTGUARD(1,1)>   <修复/@Guard1>
+<$CONQUESTGUARD(1,2)>   <修复/@Guard2>
+<$CONQUESTGUARD(1,3)>   <修复/@Guard3>
+<$CONQUESTGUARD(1,4)>   <修复/@Guard4>
+<$CONQUESTGUARD(1,5)>   <修复/@Guard5>
+<$CONQUESTGUARD(1,6)>   <修复/@Guard6>
+<$CONQUESTGUARD(1,7)>   <修复/@Guard7>
+<$CONQUESTGUARD(1,8)>   <修复/@Guard8>
+<$CONQUESTGUARD(1,9)>   <修复/@Guard9>
+<$CONQUESTGUARD(1,10)>   <修复/@Guard10>
+<$CONQUESTGUARD(1,11)>   <修复/@Guard11>
+<$CONQUESTGUARD(1,12)>   <修复/@Guard12>
 
-<Back/@Sabuk>     <Exit/@Exit>
+<返回/@Sabuk>     <退出/@Exit>
 
 [@Gates]
 #SAY
 
-<Repair All Walls/@RepairAllWalls>
+<修复所有城墙/@RepairAllWalls>
 
-Walls and Gates
-<$CONQUESTWALL(1,1)>   <Repair/@Wall1>
-<$CONQUESTWALL(1,2)>   <Repair/@Wall2>
-<$CONQUESTWALL(1,3)>   <Repair/@Wall3>
-<$CONQUESTGATE(1,1)>   <Repair/@Gate1>
+城墙和城门
+<$CONQUESTWALL(1,1)>   <修复/@Wall1>
+<$CONQUESTWALL(1,2)>   <修复/@Wall2>
+<$CONQUESTWALL(1,3)>   <修复/@Wall3>
+<$CONQUESTGATE(1,1)>   <修复/@Gate1>
 
-<Open Gate/@OpenGate> <Close Gate/@CloseGate>
+<打开城门/@OpenGate> <关闭城门/@CloseGate>
 
-<Back/@Sabuk>     <Exit/@Exit>
+<返回/@Sabuk>     <退出/@Exit>
 
 [@OpenGate]
 #ACT
 OPENGATE 1 1
-LocalMessage "Gate Opened." Hint
+LocalMessage "城门已打开。" Hint
 
 [@CloseGate]
 #ACT
 CLOSEGATE 1 1
-LocalMessage "Gate Closed." Hint
+LocalMessage "城门已关闭。" Hint
 
 [@RepairAllWalls]
 #ACT
 CONQUESTWALL 1 1
 CONQUESTWALL 1 2
 CONQUESTWALL 1 3
-LocalMessage "All Walls Repaired." Hint
+LocalMessage "所有城墙已修复。" Hint
 
 [@Wall1]
 #ACT
 CONQUESTWALL 1 1
-LocalMessage "You have Repaired Left Wall!" Hint
+LocalMessage "左侧城墙已修复！" Hint
 
 [@Wall2]
 #ACT
 CONQUESTWALL 1 2
-LocalMessage "Center Wall Repaired." Hint
+LocalMessage "中央城墙已修复。" Hint
 
 [@Wall3]
 #ACT
 CONQUESTWALL 1 3
-LocalMessage "Right Wall Repaired." Hint
+LocalMessage "右侧城墙已修复。" Hint
 
 [@Gate1]
 #ACT
 CONQUESTGATE 1 1
-LocalMessage "Gate Repaired." Hint
+LocalMessage "城门已修复。" Hint
 
 [@RepairAll]
 #ACT
@@ -195,67 +194,7 @@ CONQUESTGUARD 1 9
 CONQUESTGUARD 1 10
 CONQUESTGUARD 1 11
 CONQUESTGUARD 1 12
-LocalMessage "All Guards Revived." Hint
-
-[@Guard1]
-#ACT
-CONQUESTGUARD 1 1
-LocalMessage "Guard 1 Revived." Hint
-
-[@Guard2]
-#ACT
-CONQUESTGUARD 1 2
-LocalMessage "Guard 2 Revived." Hint
-
-[@Guard3]
-#ACT
-CONQUESTGUARD 1 3
-LocalMessage "Guard 3 Revived." Hint
-
-[@Guard4]
-#ACT
-CONQUESTGUARD 1 4
-LocalMessage "Guard 4 Revived." Hint
-
-[@Guard5]
-#ACT
-CONQUESTGUARD 1 5
-LocalMessage "Guard 5 Revived." Hint
-
-[@Guard6]
-#ACT
-CONQUESTGUARD 1 6
-LocalMessage "Guard 6 Revived." Hint
-
-[@Guard7]
-#ACT
-CONQUESTGUARD 1 7
-LocalMessage "Guard 7 Revived." Hint
-
-[@Guard8]
-#ACT
-CONQUESTGUARD 1 8
-LocalMessage "Guard 8 Revived." Hint
-
-[@Guard9]
-#ACT
-CONQUESTGUARD 1 9
-LocalMessage "Guard 9 Revived." Hint
-
-[@Guard10]
-#ACT
-CONQUESTGUARD 1 10
-LocalMessage "Guard 10 Revived." Hint
-
-[@Guard11]
-#ACT
-CONQUESTGUARD 1 11
-LocalMessage "Guard 11 Revived." Hint
-
-[@Guard12]
-#ACT
-CONQUESTGUARD 1 12
-LocalMessage "Guard 12 Revived." Hint
+LocalMessage "所有守卫已复活。" Hint
 
 [@SWReset]
 #ACT
