@@ -2,7 +2,7 @@
 #IF
 CHECKPKPOINT > 199
 #SAY
-I will not help an evil person like you...
+我不会帮助像你这样的恶人...
  
  
 <Close/@exit>
@@ -11,42 +11,42 @@ GOTO @Main-1
 
 [@Main-1]
 #SAY
-Welcome, What can I do for you?
-I see you're wearing: 
+欢迎，我能为你做些什么？
+我看到你装备着: 
 {L: <$RING_L> R: <$RING_R>/CORAL}
 {L: <$BRACELET_L> R: <$BRACELET_R>/CORAL}
 {<$NECKLACE>/CORAL}
 
 
-<View/@BuySell> Store.
-<Repair/@Repair> Jewellery.
-<Special/@SRepair> Special Repair Jewellery.
+<View/@BuySell> 商店。
+<Repair/@Repair> 首饰。
+<Special/@SRepair> 特殊修理首饰。
  
 <Close/@exit>
 
 [@BuySell]
 #SAY
-Which item would you like to Buy or Sell?
+你想买或卖什么物品？
 <Buy Back/@BuyBack>
  
 <Back/@main>
 
 [@BuyBack]
 #SAY
-These are the items still available to purchase back.
+这些是可以回购的物品。
  
 <Back/@main>
 
 [@Repair]
 #SAY
-You can repair various kinds of Jewellery.
+你可以修理各种首饰。
   
 <Back/@main>
 
 [@SRepair]
 #SAY
-Traveller, You are lucky... We have the materials to do Special repairs.
-Show me the jewellery that needs special repair.
+旅行者，你很幸运...我们有材料可以进行特殊修理。
+让我看看需要特殊修理的首饰。
  
 <Back/@main>
 
